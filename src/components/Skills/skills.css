@@ -17,4 +17,12 @@
             color: #3D3D3D;
         }
     }
+
+    .content{
+        background-color: blue;
+        display: grid;
+        padding-top: 2rem;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2rem;
+    }
 }
