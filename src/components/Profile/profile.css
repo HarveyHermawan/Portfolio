@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.profile{
+    display: flex;
+    margin: 3% 15% 5% 15%;
+
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+
+        .title{
+            display: flex;
+            background-color: #F5ECD5;
+            width: 17rem;
+            justify-content: center;
+            
+            .title-text{
+                font-family: 'Open Sans';
+                font-size: 3rem;
+                font-weight: bold;
+                color: #3D3D3D;
+            }
+        }
+    
+        .desc{
+            display: flex;
+            font-family: 'Open Sans';
+            color: #3D3D3D;
+            font-size: 1.5rem;
+            width: 50rem;
+            padding-top: 2rem;
+        }
+    }
+
+    .picture{
+        padding-left: 10%;
+
+        .profilePicture{
+            width: 80%;
+            transition: transform 0.3s ease;
+        }
+
+        .profilePicture:hover{
+            transform: scale(1.05);
+        }
+    }
+}
