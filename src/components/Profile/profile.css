@@ -2,7 +2,8 @@
 
 .profile{
     display: flex;
-    margin: 3% 15% 5% 15%;
+    padding: 5% 15% 0 15%;
+    justify-content: space-between;
 
     .aboutMe{
         display: flex;
@@ -33,7 +34,6 @@
     }
 
     .picture{
-        padding-left: 10%;
 
         .profilePicture{
             width: 80%;

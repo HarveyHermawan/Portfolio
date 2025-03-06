@@ -12,7 +12,7 @@ const skills = () => {
       </div>
       <div className='content'>
         {Skills.map((skill) =>(
-          <div className='item' key={skill.id}>
+          <div className='item rounded-3xl' key={skill.id}>
             <div>
               <img src={skill.image} alt="" />
             </div>

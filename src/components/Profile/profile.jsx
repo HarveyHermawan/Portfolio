@@ -11,7 +11,7 @@ const profile = () => {
             About Me
           </div>
         </div>
-        <div className='desc'>
+        <div className='desc fon'>
           <p>Hi, I’m Harvey, an undergraduate student at Bina Nusantara University pursuing a degree in Computer Science with a passion for web development and a love for learning new things. I’m driven by the goal of creating clean, efficient, and user-friendly digital experiences. I have experience with HTML, CSS, and JavaScript.</p>
         </div>
       </div>

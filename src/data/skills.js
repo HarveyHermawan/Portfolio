@@ -1,4 +1,4 @@
-export const skills=[
+export const Skills=[
     {
         id: 1,
         image: '/html.png',
