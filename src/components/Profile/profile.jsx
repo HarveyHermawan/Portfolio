@@ -17,7 +17,7 @@ const profile = () => {
       </div>
 
       <div className='picture'>
-        <img className='profilePicture' src='/pp.png'/>
+        <img className='profilePicture rounded-3xl' src='/pp.png'/>
       </div>
       
     </div>
