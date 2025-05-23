@@ -2,6 +2,7 @@ import './App.css'
 import Profile from './components/Profile/profile'
 import Skills from './components/Skills/skills'
 import Contacts from './components/Contacts/contacts'
+import Projects from './components/Projects/projects'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Profile/>
       <Contacts/>
       <Skills/>
+      <Projects/>
     </>
   )
 }

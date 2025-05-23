@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.skills{
+.projects{
     display: flex;
     padding: 1% 15% 0 15%;
     flex-direction: column;
@@ -8,9 +8,9 @@
     .title{
         display: flex;
         background-color: #00ADB5;
-        width: 10rem;
+        width: 15rem;
         justify-content: center;
-        
+
         .title-text{
             font-family: 'Open Sans';
             font-size: 3rem;
@@ -24,40 +24,45 @@
         display: grid;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        grid-template-columns: repeat(6, 10rem);
         gap: 1rem;
 
-        .item{
+        .project{
+            padding: 1rem;
             background-color: #00ADB5;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            width: 100%;
+            width: 50%;
             height: auto;
-            transition: transform 0.3s ease;
 
-            img{
-                padding: 1rem 0.5rem;
-                width: 7rem;
-                height: auto;
-                background-size: cover;
-                background-position: center;
-            }
-
-            .skill-name{
-                padding-bottom: 1rem;
+            .project-name{
                 font-family: 'open sans';
                 font-size: 1.5rem;
                 color: #3D3D3D;
                 font-weight: 600;
                 cursor: default;
             }
-        }
 
-        .item:hover{
-            transform: scale(1.05);
+            .project-desc{
+                font-family: 'open sans';
+                font-size: 1.2rem;
+                color: #3D3D3D;
+                font-weight: 400;
+                cursor: default;
+            }
+
+            .project-link{
+                padding-top: 1rem;
+                font-family: 'open sans';
+                font-size: 1.2rem;
+                color: #3D3D3D;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover{
+                    color: blue;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

@@ -11,7 +11,7 @@
 
         .title{
             display: flex;
-            background-color: #F5ECD5;
+            background-color: #00ADB5;
             width: 17rem;
             justify-content: center;
             
@@ -20,6 +20,7 @@
                 font-size: 3rem;
                 font-weight: bold;
                 color: #3D3D3D;
+                cursor: default;
             }
         }
     
